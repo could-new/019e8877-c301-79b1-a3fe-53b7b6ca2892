@@ -1,30 +1,35 @@
-# Gestore Attività (Task Manager)
+# 🔌 WP HUNTER - WordPress Target Finder
 
-Una semplice ed elegante applicazione in Flutter per la gestione delle proprie attività quotidiane, progettata per essere intuitiva e reattiva su tutti i dispositivi.
+WP Hunter è un'applicazione desktop moderna con un design accattivante a tema "hacking", sviluppata appositamente per Windows (e compatibile cross-platform). Consente di ricercare, generare dork e monitorare target WordPress in un'interfaccia ispirata ai terminali e ai tool di sicurezza.
 
-## Funzionalità
-- **Aggiunta rapida**: Aggiungi nuove attività alla tua lista in un attimo tramite il comodo pulsante flottante.
-- **Riepilogo visivo**: Tieni traccia dei tuoi progressi con una barra che mostra quante attività hai completato rispetto al totale.
-- **Supporto al tema scuro**: Si adatta automaticamente alle impostazioni del sistema (Light/Dark mode).
-- **Gestione Swipe**: Elimina rapidamente le attività trascinandole verso sinistra (swipe-to-delete).
-- **Cross-platform**: Pronta all'uso su Web, iOS, Android e Desktop grazie all'adattabilità di Flutter.
+## 🚀 Caratteristiche Principali
 
-## Come avviare il progetto
+- **Design Hacking Estremo**: Tema scuro (dark mode), font monospace (IBM Plex Mono) ed elementi visivi tipici dei terminali hacker, con accenti verdi fluo, rossi e ciano.
+- **Generatore di Dork**: Sezione per generare e copiare rapidamente dork di ricerca specifici per vulnerabilità o configurazioni esposte di WordPress.
+- **Terminale Interattivo (Simulato)**: Un log di sistema che mostra in tempo reale le azioni effettuate (scansioni, caricamenti, errori).
+- **Tabella dei Target**: Interfaccia di gestione per i target individuati, con stato di vulnerabilità e percorsi sensibili esposti (login, xmlrpc, api, ecc.).
 
-Assicurati di avere [Flutter](https://flutter.dev) installato nel tuo sistema.
+## 💻 Stack Tecnologico
 
-1. Installa le dipendenze:
+- **Flutter**: Framework UI nativo.
+- **Google Fonts**: Utilizzo di IBM Plex Mono per garantire un'estetica da riga di comando.
+- **Dart**: Linguaggio di programmazione.
+
+## 🛠️ Come eseguire il progetto
+
+1. Assicurati di avere Flutter installato e configurato per il desktop (Windows).
+2. Clona questo repository.
+3. Installa le dipendenze eseguendo:
    ```bash
    flutter pub get
    ```
-
-2. Avvia l'applicazione:
+4. Avvia l'applicazione:
    ```bash
-   flutter run
+   flutter run -d windows
    ```
 
 ---
 
-### Informazioni su CouldAI
+## 🤖 Informazioni su CouldAI
 
-Questa applicazione è stata generata tramite [CouldAI](https://could.ai), un costruttore di app AI per applicazioni multipiattaforma. CouldAI trasforma i prompt in vere e proprie app native per iOS, Android, Web e Desktop avvalendosi di agenti AI autonomi in grado di progettare, costruire, testare, distribuire e iterare applicazioni pronte per la produzione.
+Questa applicazione è stata generata tramite [CouldAI](https://could.ai), un costruttore di app basato sull'Intelligenza Artificiale che trasforma i prompt in applicazioni native pronte per la produzione per iOS, Android, Web e Desktop. Grazie ad agenti IA autonomi, CouldAI progetta, costruisce, testa, distribuisce e itera software di alta qualità.
